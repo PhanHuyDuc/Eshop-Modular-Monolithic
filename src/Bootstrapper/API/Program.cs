@@ -44,7 +44,6 @@ app.MapCarter();
 app.UseSerilogRequestLogging();
 app.UseExceptionHandler(options => { });
 
-app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
